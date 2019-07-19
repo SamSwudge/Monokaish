@@ -1,6 +1,6 @@
 # Monokaish
 An Monokai inspired Arduino IDE theme
-![alt text](https://raw.githubusercontent.com/SamSwudge/Monokaish/master/screenshot.png)
+![alt text](https://raw.githubusercontent.com/SamSwudge/Monokaish/screenshot.png)
 
 # Installation
 1. Copy *default.xml* to the *snytax* folder in your ArduinoIDE install folder.
