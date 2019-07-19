@@ -1,0 +1,124 @@
+# GUI - STATUS
+status.notice.fgcolor = #a6e22e
+status.notice.bgcolor = #3e3d32
+status.error.fgcolor = #f92672
+status.error.bgcolor = #272822
+status.edit.fgcolor = #f8f8f2
+status.edit.bgcolor = #272822
+status.font = SansSerif,plain,12
+
+# GUI - TABS
+# settings for the tabs at the top
+# (tab images are stored in the lib/theme folder)
+header.bgcolor = #3e3d32
+header.text.selected.color = #f8f8f2
+header.text.unselected.color = #f8f8f2
+header.text.font = SansSerif,plain,12
+
+# GUI - CONSOLE
+console.font = Monospaced,plain,11
+console.font.macosx = Monaco,plain,10
+console.color = #272822
+console.output.color = #f8f8f2
+console.error.color = #F92672
+
+# GUI - BUTTONS
+buttons.bgcolor = #272822
+buttons.status.font = SansSerif,plain,12
+buttons.status.color = #ffffff
+
+# GUI - PLOTTING
+plotting.bgcolor = #ffffff
+plotting.color = #ffffff
+plotting.gridcolor = #f0f0f0
+plotting.boundscolor = #000000
+plotting.graphcolor.size = 8
+plotting.graphcolor.00 = #0000FF
+plotting.graphcolor.01 = #FF0000
+plotting.graphcolor.02 = #009900
+plotting.graphcolor.03 = #FF9900
+plotting.graphcolor.04 = #CC00CC
+plotting.graphcolor.05 = #666666
+plotting.graphcolor.06 = #00CCFF
+plotting.graphcolor.07 = #000000
+
+# GUI - LINESTATUS   
+linestatus.color = #F8F8F2
+linestatus.bgcolor = #404040
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #F8F8F2
+editor.bgcolor = #272822
+
+# highlight for the current line
+editor.linehighlight.color=#3E3D32
+# highlight for the current line
+editor.linehighlight=true
+
+# caret blinking and caret color
+editor.caret.color = #F8F8F0
+
+# color to be used for background when 'external editor' enabled
+editor.external.bgcolor = #c8d2dc
+
+# selection color
+editor.selection.color = #49483E
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #e6db74,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #e6db74
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #F8F8F2
+
+# TEXT - KEYWORDS
+
+# FUNCTIONS
+editor.keyword1.style = #F92672,plain
+editor.data_type.style = #73ff00,bold
+
+# METHODS
+editor.keyword2.style = #66d9ef,plain
+editor.function.style = #66d9ef,plain
+
+# STRUCTURES
+editor.keyword3.style = #F92672,bold
+editor.reserved_word.style = #F92672,plain
+
+
+# TEXT - LITERALS
+editor.literal1.style = #E6DB74,plain
+editor.keyword2.style = #66d9ef,plain
+editor.variable.style = #fd971f,plain
+editor.reserved_word_2.style = #66d9ef,plain
+editor.literal_boolean.style = #66d9ef,plain
+editor.literal_char.style = #66d9ef,plain
+editor.literal_string_double_quote.style = #e6db74,plain
+editor.preprocessor.style = #f92672,plain
+
+# http://www.arduino.cc/
+editor.url.style = #E6DB74,underlined
+
+# e.g. + - = /
+editor.operator.style = #F92672,plain
+
+
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #AE81FF,bold
+
+
+# TEXT - COMMENTS
+editor.comment1.style = #75715E,plain
+editor.comment2.style = #75715E,plain
+
+
+# LINE STATUS - editor line number status bar at the bottom of the screen
+linestatus.font	   = SansSerif,plain,10
+linestatus.height  = 20
