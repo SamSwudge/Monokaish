@@ -80,12 +80,12 @@ editor.brackethighlight.color = #F8F8F2
 # TEXT - KEYWORDS
 
 # FUNCTIONS
-editor.keyword1.style = #F92672,plain
-editor.data_type.style = #73ff00,bold
+editor.keyword1.style = #F92672,italic
+editor.data_type.style = #73ff00,plain
 
 # METHODS
 editor.keyword2.style = #66d9ef,plain
-editor.function.style = #66d9ef,plain
+editor.function.style = #66d9ef,italic
 
 # STRUCTURES
 editor.keyword3.style = #F92672,bold
@@ -95,12 +95,12 @@ editor.reserved_word.style = #F92672,plain
 # TEXT - LITERALS
 editor.literal1.style = #E6DB74,plain
 editor.keyword2.style = #66d9ef,plain
-editor.variable.style = #fd971f,plain
-editor.reserved_word_2.style = #66d9ef,plain
-editor.literal_boolean.style = #66d9ef,plain
-editor.literal_char.style = #66d9ef,plain
+editor.variable.style = #fd971f,italic
+editor.reserved_word_2.style = #66d9ef,italic
+editor.literal_boolean.style = #66d9ef,italic
+editor.literal_char.style = #66d9ef,italic
 editor.literal_string_double_quote.style = #e6db74,plain
-editor.preprocessor.style = #f92672,plain
+editor.preprocessor.style = #f92672,italic
 
 # http://www.arduino.cc/
 editor.url.style = #E6DB74,underlined
@@ -115,8 +115,8 @@ editor.label.style = #AE81FF,bold
 
 
 # TEXT - COMMENTS
-editor.comment1.style = #75715E,plain
-editor.comment2.style = #75715E,plain
+editor.comment1.style = #75715E,italic
+editor.comment2.style = #75715E,italic
 
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
